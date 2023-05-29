@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+body {
+  background-color: #fdf0d5;
+  font-family: 'Open Sans', sans-serif;
+  color: #669bbc;
+  font-size: 15px;
+  line-height: normal;
+}
+
+h1, h2 {
+  color: #003049;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+.img-circle {
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+a {
+  color: #e6beae;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #582f0e;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card {
+  background-color: #f6f4d2;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > a > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.fa-brands {
+  font-size: 32px;
+}
+
+.button-link {
+  background-color: rgb(166,138,100);
+  background: linear-gradient(90deg, rgba(166,138,100,1) 0%, rgba(182,173,144,1) 100%);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.button-link:hover {
+  background: rgb(230,190,174);
+  background: linear-gradient(90deg, rgba(230,190,174,1) 0%, rgba(238,228,225,1) 100%);
+  transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
